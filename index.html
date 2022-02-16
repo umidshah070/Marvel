@@ -19,19 +19,19 @@
           <h1 class="my-5 text-center fw-bold">
             Movies catalog
           </h1>
-          <div class="row g-4">
+          <div class="row d-flex flex-column flex-sm-row g-4">
 
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
 
               <div>
 
-                <form class="form-group mb-4" action="https://echo.htmlacademy.ru/" method="get" autocomplete="off">
+                <form class="form-group mb-4" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
 
                   <input class="form-control p-3" type="search" name="ave"  placeholder="ave" >
 
                   <input class="form-control my-3 p-3" type="number"  name="number" placeholder="5" aria-label="number">
 
-                  <select class="form-select p-3" aria-label="all">
+                  <select class="form-select form-select-sm p-3" aria-label="all">
 
                       <option selected>All</option>
                       <option value="1">1</option>
@@ -87,7 +87,7 @@
 
             </div>
 
-            <div class="col-8">
+            <div class="col-12 col-sm-8">
 
               <div>
 
@@ -99,16 +99,17 @@
 
                 <div class="row">
 
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
 
-                    <div class="border border-secondary">
 
-                      <img src="./img/marvel.jpg" alt="marvel film foto"
-                      width="354">
+                    <div class="border border-secondary card" style="width: 415;">
 
-                      <div class="p-2">
-                        <h3 class="mb-3">Avengers: Infinity War</h3>
-                        <span class="d-flex mb-2 align-items-center">
+                      <img src="./img/marvel.jpg" alt="marvel film foto" class="card-img-top"
+                      >
+                      <div class="card-body">
+
+                        <h3 class="mb-3 card-title">Avengers: Infinity War</h3>
+                        <span class="d-flex mb-2 align-items-center ">
                             <img class="me-2" src="./img/calendar-silhouette.png"
                             width="30"
                             alt="calendar icon">
@@ -125,9 +126,13 @@
                             <button type="button" class="btn btn-outline-info  btnn">More info</button>
                             <button type="button" class="btn btn-outline-success  btnn">Bookmark</button>
                         </div>
-                    </div>
 
 
+
+
+
+
+                      </div>
 
 
 
@@ -138,15 +143,15 @@
 
 
 
-                  <div class="col-6">
+                  <div class="col-12 col-sm-6">
 
-                    <div class="border border-secondary">
+                    <div class="border border-secondary card" style="width: 415;">
 
-                      <img src="./img/halk.jpg" alt="marvel film foto"
-                      width="354">
+                      <img src="./img/halk.jpg" alt="marvel film foto" class="card-img-top"
+                      >
+                      <div class="card-body">
 
-                      <div class="p-2">
-                        <h3 class="mb-3">The Avengers</h3>
+                        <h3 class="mb-3 card-title">The Avengers</h3>
                         <span class="d-flex mb-2 align-items-center ">
                             <img class="me-2" src="./img/calendar-silhouette.png"
                             width="30"
@@ -164,8 +169,17 @@
                             <button type="button" class="btn btn-outline-info  btnn">More info</button>
                             <button type="button" class="btn btn-outline-success  btnn">Bookmark</button>
                         </div>
-                    </div>
 
+
+
+
+
+
+                      </div>
+
+
+
+                    
                     </div>
 
                   </div>
@@ -196,6 +210,8 @@
       </div>
     </section>
   </main>
+
+
 
 
 
